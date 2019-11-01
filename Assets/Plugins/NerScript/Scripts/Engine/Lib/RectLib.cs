@@ -19,7 +19,6 @@ namespace NerScript
         public static Rect AddWidth(ref this Rect rect, float width) { rect.width += width; return rect; }
         public static Rect AddHeight(ref this Rect rect, float height) { rect.height += height; return rect; }
         public static Rect Add(ref this Rect rect, Rect other) { rect.AddPos(other.position); rect.AddSize(other.size); return rect; }
-        public static Pointer<Rect> AddPos(this Pointer<Rect> rect, Vector2 pos) { rect.value.AddPos(pos); return rect; }
         #endregion
 
         #region Set
