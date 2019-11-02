@@ -4,6 +4,12 @@ namespace NerScript
 {
     public class Colors
     {
+        // NOTE: The follwing color names come from the CSS3 specification, Section 4.3 Extended Color Keywords
+        // http://www.w3.org/TR/css3-color/#svg-color
+
+        //参考サイト
+        //http://baba-s.hatenablog.com/entry/2017/12/28/145900
+
         public static readonly Color AliceBlue = new Color32(240, 248, 255, 255);
         public static readonly Color AntiqueWhite = new Color32(250, 235, 215, 255);
         public static readonly Color Aqua = new Color32(0, 255, 255, 255);
@@ -144,7 +150,5 @@ namespace NerScript
         public static readonly Color WhiteSmoke = new Color32(245, 245, 245, 255);
         public static readonly Color Yellow = new Color32(255, 255, 0, 255);
         public static readonly Color YellowGreen = new Color32(154, 205, 50, 255);
-
-        public static readonly Color Hinata = new Color32(91, 190, 229, 255);
     }
 }

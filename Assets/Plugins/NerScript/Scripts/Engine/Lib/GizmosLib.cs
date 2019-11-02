@@ -5,6 +5,10 @@ using static UnityEngine.Gizmos;
 
 namespace NerScript
 {
+    //参考サイト
+    // https://github.com/code-beans/GizmoExtensions
+
+
     /// <summary>
     /// 拡張メソッド
     /// </summary>
